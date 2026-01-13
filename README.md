@@ -10,9 +10,9 @@
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://python.org)
-[![Documentation](https://img.shields.io/badge/docs-online-green.svg)](https://mira-xt.github.io/arx-lang/)
+[![Documentation](https://img.shields.io/badge/docs-online-green.svg)](https://mira-xt.github.io/artemis-language/)
 
-[Documentation](https://mira-xt.github.io/arx-lang/) • [Getting Started](#quick-start) • [Contributing](CONTRIBUTING.md)
+[Documentation](https://mira-xt.github.io/artemis-language/) • [Getting Started](#quick-start) • [Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -22,7 +22,7 @@
 - **LLVM Backend** - High-performance compilation with optimization
 - **Type Safety** - Static typing with type inference
 - **Modular Design** - Built-in module system with `using` imports
-- **Cross-Platform** - Runs on Linux, Windows, not sure if anything else but just needs C and LLVM
+- **Cross-Platform** - Runs on Linux, Windows, not sure if anything else but just needs C and LLVM (& Python)
 - **On Going IDE Support** - Has VSCode extension
 
 ## Quick Start
@@ -34,7 +34,7 @@
 git clone https://github.com/mira-xt/artemis-language.git
 cd artemis-language
 
-# Install
+# Install (probably won't work)
 python arx_install.py -i
 
 # Run your first ARX program
@@ -53,25 +53,6 @@ int _exec() {
 }
 ```
 
-### Fibonacci Example
-
-```arx
-using io
-
-int fib(int n) {
-    if (n <= 1) {
-        return n
-    }
-    return fib(n - 1) + fib(n - 2)
-}
-
-int _exec() {
-    int result = fib(io.input_integer('Enter number > '))
-    io.print(result)
-    return 0
-}
-```
-
 ## Requirements
 
 - **Python 3.7 or higher**
@@ -80,27 +61,9 @@ int _exec() {
   - `llc` (LLVM static compiler)
 - **Git**
 
-## Architecture
-
-```
-ARX Source Code (.arx)
-        ↓
-    Lexer & Parser
-        ↓
-    Abstract Syntax Tree
-        ↓
-    Code Generator
-        ↓
-   LLVM IR / C Code
-        ↓
-    GCC / LLC Compiler
-        ↓
-    Native Binary
-```
-
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+Contributions are welcome. Read our [Contributing Guide](CONTRIBUTING.md) for details.
 
 - **Bug Reports** - Help us improve reliability
 - **Feature Requests** - Suggest new language features  
@@ -113,10 +76,10 @@ This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) fi
 
 ## Links
 
-- [📖 **Documentation**](https://mira-xt.github.io/artemis-language/) - Complete language reference
-- [🧩 **VS Code Extension**](https://github.com/mira-xt/arx-vscode/) - Not gonna update it
-- [📁 **Examples**](testing/) - Sample ARX programs
-- [🐛 **Issues**](https://github.com/mira-xt/artemis-language/issues) - Bug reports and feature requests
+- [**Documentation**](https://mira-xt.github.io/artemis-language/) - Complete language reference
+- [**VS Code Extension**](https://github.com/mira-xt/arx-vscode/) - Not gonna update it
+- [**Examples**](testing/) - Sample ARX programs
+- [**Issues**](https://github.com/mira-xt/artemis-language/issues) - Bug reports and feature requests
 
 ---
 

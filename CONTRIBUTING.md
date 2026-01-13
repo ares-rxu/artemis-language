@@ -1,6 +1,6 @@
 # Contributing to Artemis Language
 
-Thank you for your interest in contributing to ARX! We welcome contributions from developers of all skill levels.
+Contributions are welcome.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Artemis (ARX) is a programming language with its own compiler and standard libra
 
 1. Read our [documentation](https://mira-xt.github.io/artemis-language/)
 2. Try running some examples from the `testing/` directory
-3. Familiarize yourself with the codebase structure
+3. Read the codebase
 
 ## Development Setup
 
@@ -142,11 +142,10 @@ Ensure your changes include appropriate tests:
 
 ### Debugging Compilation Issues
 
-When working on compiler improvements, use these debugging techniques:
+When working on compiler code, use the debug flag:
 
 ```bash
 python arx.py build testing/debug_example.arx --debug
-# --debug argument enables debug prints
 ```
 
 ## Submitting Changes
