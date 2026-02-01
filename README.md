@@ -10,9 +10,9 @@
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://python.org)
-[![Documentation](https://img.shields.io/badge/docs-online-green.svg)](https://mira-xt.github.io/artemis-language/)
+[![Documentation](https://img.shields.io/badge/docs-online-green.svg)](https://ares-rxu.github.io/artemis-language/)
 
-[Documentation](https://mira-xt.github.io/artemis-language/) • [Getting Started](#quick-start) • [Contributing](CONTRIBUTING.md)
+[Documentation](https://ares-rxu.github.io/artemis-language/) • [Getting Started](#quick-start) • [Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -31,7 +31,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/mira-xt/artemis-language.git
+git clone https://github.com/ares-rxu/artemis-language.git
 cd artemis-language
 
 # Install (probably won't work)
@@ -76,10 +76,10 @@ This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) fi
 
 ## Links
 
-- [**Documentation**](https://mira-xt.github.io/artemis-language/) - Complete language reference
-- [**VS Code Extension**](https://github.com/mira-xt/arx-vscode/) - Not gonna update it
+- [**Documentation**](https://ares-rxu.github.io/artemis-language/) - Complete language reference
+- [**VS Code Extension**](https://github.com/ares-rxu/arx-vscode/) - Not gonna update it
 - [**Examples**](testing/) - Sample ARX programs
-- [**Issues**](https://github.com/mira-xt/artemis-language/issues) - Bug reports and feature requests
+- [**Issues**](https://github.com/ares-rxu/artemis-language/issues) - Bug reports and feature requests
 
 ---
 
