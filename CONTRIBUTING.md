@@ -17,7 +17,7 @@ Contributions are welcome.
 
 Artemis (ARX) is a programming language with its own compiler and standard library. Before contributing, please:
 
-1. Read our [documentation](https://mira-xt.github.io/artemis-language/)
+1. Read our [documentation](https://ares-rxu.github.io/artemis-language/)
 2. Try running some examples from the `testing/` directory
 3. Read the codebase
 
@@ -280,9 +280,9 @@ You can find yourself in the Git commit history or other contributors will be re
 
 ## Resources
 
-- [Project Documentation](https://mira-xt.github.io/artemis-language/)
+- [Project Documentation](https://ares-rxu.github.io/artemis-language/)
 - [Language Examples](./testing/)
-- [Issue Tracker](https://github.com/mira-xt/artemis-language/issues)
+- [Issue Tracker](https://github.com/ares-rxu/artemis-language/issues)
 
 ## License
 
